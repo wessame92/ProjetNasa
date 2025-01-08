@@ -1,0 +1,19 @@
+@keyframes fadein {
+
+    from {
+       opacity: 0;
+       transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+       
+    }
+ 
+
+}
+.card:hover{
+    scale: 1.03; 
+    transition: transform 1s, box-shadow 1s;
+  
+    
+}
