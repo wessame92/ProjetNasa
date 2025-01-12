@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Images de la Terre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #imageContainer {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .image-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .image-card img {
+            border-radius: 8px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+         <a href="index.html" rel="noopener noreferrer nofollow" 
+         target="_blank"><img src="images/Space W.png" alt="Logo" 
+         width=5% height=5% title="logo "/> </a>       </nav>
+         
+     </header>
+ 
+    <h1>Images de la Terre</h1>
+    <p>Saisissez une date pour afficher les images prises par le satellite DSCOVR ou visualisez les images du jour.</p>
+    <input type="date" id="dateInput">
+    <button id="fetchImageBtn">Afficher les images</button>
+    <div id="imageContainer"></div>
+    <script src="javascript/earth.js"></script>
+</body>
+</html>

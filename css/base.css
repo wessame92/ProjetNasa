@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    
 }
 .container {
     display: inline-block;
@@ -59,15 +60,71 @@
     font-family: js;
 }
 
-.container{
-
-    display: flex;
-    justify-content: center;
-}
 
 nav{
     background-color: black; 
 }
 nav img{
     padding: 10px;
+}
+header {
+
+    background-color: black;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#asteroidContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.asteroid-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+.asteroid-card h3 {
+    font-size: 18px;
+}
+.asteroid-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.image-card {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+}
+select, input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+}
+.photo-card {
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.photo-card img {
+    max-width: 100%;
+    height: auto;
 }

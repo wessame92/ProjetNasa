@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>MARS</title>
+     
+    </head>
+    <body>
+        <header>
+            <nav>
+             <a href="index.html" rel="noopener noreferrer nofollow" 
+             target="_blank"><img src="images/Space W.png" alt="Logo" 
+             width=5% height=5% style="display: flex;justify-content: center;" title="logo "/> </a>       </nav>
+             
+         </header>
+    
+        <h1>Photos du Rover de Mars</h1>
+    
+        <div>
+            <label for="rover">Choisir un rover :</label>
+            <select id="rover">
+                <option value="curiosity">Curiosity</option>
+                <option value="opportunity">Opportunity</option>
+                <option value="spirit">Spirit</option>
+            </select>
+        </div>
+    
+        <div>
+            <label for="sol">Entrer un sol :</label>
+            <input type="number" id="sol" placeholder="Entrez un sol" />
+        </div>
+    
+        <div>
+            <label for="camera">Choisir une caméra :</label>
+            <select id="camera">
+                <option value="all">Toutes les caméras</option>
+                <option value="FHAZ">FHAZ</option>
+                <option value="RHAZ">RHAZ</option>
+                <option value="MAST">MAST</option>
+                <option value="CHEMCAM">CHEMCAM</option>
+                <option value="MAHLI">MAHLI</option>
+            </select>
+        </div>
+    
+        <button id="fetchPhotosBtn">Voir les photos</button>
+    
+        <div id="photoContainer"></div>
+    
+        <script src="javascript/mars.js"></script>
+    
+    </body>
+    </html>
+    

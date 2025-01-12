@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition"content = "Page D'accueil">
+    <meta name="author"content = "W">
+    <meta name="keywords"content = "SpaceW">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <title>Near us </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+      
+    </style>
+</head>
+<body>
+
+      
+    <header>
+        <nav>
+         <a href="index.html" rel="noopener noreferrer nofollow" 
+         target="_blank"><img src="images/Space W.png" alt="Logo" 
+         width=5% height=5% title="logo "/> </a>       </nav>
+         
+     </header>
+ 
+    <h1>Astéroïdes Proches de la Terre</h1>
+    <p>Entrez une plage de dates pour voir les informations sur les astéroïdes proches de la Terre.</p>
+    <div>
+        <label for="Date">Date:</label>
+        <input type="date" id="todayDate">
+        
+    </div>
+    <button id="fetchAsteroidsBtn">Afficher les astéroïdes</button>
+    <div id="asteroidContainer"></div>
+    <script src="javascript/nearus.js"></script>
+</body>
+</html>
